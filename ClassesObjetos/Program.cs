@@ -28,5 +28,16 @@ conta_poupanca.Depositar(50m);
 Console.WriteLine(Math.Round(10.567, 2)); //arredonda
 Console.WriteLine(DateTime.Now);
 
+Pessoa pessoa1 = new Pessoa();
+Console.WriteLine($"Nome: {pessoa1.Nome}");
+Console.WriteLine($"Idade: {pessoa1.Idade}");
 
+Pessoa pessoa2 = new Pessoa("João", 30);
+Console.WriteLine($"Nome: {pessoa2.Nome}");
+Console.WriteLine($"Idade: {pessoa2.Idade}");
 
+string nome = "Samuel";
+Produto p3 = new Produto
+{
+    Nome = "PS5",
+};

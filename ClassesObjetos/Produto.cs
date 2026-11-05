@@ -5,6 +5,8 @@ namespace ClassesObjetos
     {
         public string? Nome { get; set; } // Getters e setters
         public decimal Preco { get; private set; }
+        public int quantidade { get; set; }
+
 
         public void Exibir()
         {
@@ -22,5 +24,10 @@ namespace ClassesObjetos
                 Console.WriteLine("Valor não permitido");
             }
         }
+        public Produto()
+        {
+
+        }
     }
 }
+
