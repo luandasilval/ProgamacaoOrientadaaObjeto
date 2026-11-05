@@ -13,7 +13,14 @@ namespace ClassesObjetos
 
         public void AlterarPreco(decimal NovoPreco)
         {
-            Preco = NovoPreco;
+            if (NovoPreco > 0)
+            {
+                Preco = NovoPreco;
+            }
+            else
+            {
+                Console.WriteLine("Valor não permitido");
+            }
         }
     }
 }
